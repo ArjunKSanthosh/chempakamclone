@@ -17,10 +17,12 @@
             
         }
         .logo{
-            background-color: black;
-            padding-left: 300px;
+            background-color: rgb(30, 28, 28);
+            padding-left: 50px;
             color: white;
             padding-top: 50px;
+            height: 100px;
+            
         }
         ul{
             list-style: none;
@@ -69,6 +71,71 @@
             padding-bottom: 20px;
             position: relative;
         }
+        .logoimg{
+            float: left;
+            padding-left: 100px;
+            display: block;
+
+        }
+        .nav1{
+            float: left;
+            padding-top: 30px;
+            padding-left: 90px;
+            
+        }
+        .nav2{
+            float: left;
+            padding-top: 30px;
+            padding-left: 40px;
+        }
+        .nav3{
+            float: left;
+            padding-top: 30px;
+            padding-left: 40px;
+        }
+        .nav4{
+            float: left;
+            padding-top: 30px;
+            padding-left: 40px;
+        }
+        .nav1:hover a{
+            color: brown;
+        }
+        .nav2:hover a{
+            color: brown;
+        }
+        .nav3:hover a{
+            color: brown;
+        }
+        .nav4:hover a{
+            color: brown;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;font-family: ;
+        }
+        .logo input[type=text] {
+            float: left;
+            padding: 6px;
+            margin-top: 20px;
+            margin-left: 90px;
+            border: none;
+            font-size: 17px;
+            opacity: 0.5;
+            margin-right: 0;
+          }
+          img{
+        
+            display: block;
+          }
+        li{
+
+                float: left;
+                border-right:1px solid #bbb;
+             
+          }
+          
     </style>
 </head>
 <body>
@@ -78,13 +145,13 @@
         </marquee>
     </div>
     <div class="logo">
-        <img src="logo.png" alt="">
-        <ul>
-            <li>SHOP NOW</li>
-            <li>REVIEWS</li>
-            <li>ABOUT US</li>
-            <li>CONTACT US</li>
-        </ul>
+       <div class="logoimg"> <img src="logo.png" alt=""></div>
+        <div class="nav1"><a href="#shopnow">SHOP NOW</a></div>
+        <div class="nav2"><a href="#reviews">REVIEWS</a></div>
+        <div class="nav3"><a href="#contactus">ABOUT US</a></div>
+        <div class="nav4"><a href="#contact">CONTACT</a></div>
+        <input type="text" name="search" id="" placeholder="Product code">
+       
     </div>
     <div class="banner">
         <div class="welcome">Welcome to</div>
@@ -92,6 +159,7 @@
         <div class="shop">Online Shop</div>
         <input type="button" value="SHOP NOW" class="bt1">
         <input type="button" value="DISCOUNT SALE" class="bt2">
+        
     </div>
 </body>
 </html>
